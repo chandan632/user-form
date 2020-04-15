@@ -5,6 +5,7 @@ const mongoose = require("mongoose")
 const dotenv = require("dotenv")
 const nodemailer = require("nodemailer")
 const User = require("./model/User")
+const path = require("path")
 
 const app = express()
 
